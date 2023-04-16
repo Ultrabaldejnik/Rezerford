@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rezerford.HelloController">
+    <children>
+        <Button layoutX="400.0" layoutY="400.0" mnemonicParsing="false" onAction="#Button" text="Start" />
+        <Circle fx:id="circle1" fill="DODGERBLUE" layoutX="161.0" layoutY="250.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="circle2" fill="#ff1f88" layoutX="900.0" layoutY="250.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+        <Button layoutX="540.0" layoutY="400.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="52.0" text="Button" />
+    </children>
+</Pane>
